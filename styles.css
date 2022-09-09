@@ -5,6 +5,8 @@
 /**Fonts**/
     body{
         font-family: 'Roboto', sans-serif;
+        padding: 0;
+        margin: 0;
     }
 
     h1{
@@ -19,9 +21,21 @@
         font-weight: 700;
     }
 
+    h1{
+        font-size: 4rem !important;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
 /**Colors*/
     .text-primary{
-        color: #1f2937 !important;
+        color: #000 !important;
     }
 
     .text-light{
@@ -33,11 +47,11 @@
     }
 
     .bg-primary{
-        background-color: #1f2937 !important;
+        background-color: #11151b !important;
     }
 
     .bg-secondary{
-        background-color: #3882f6 !important;
+        background-color: #0fa1b4 !important;
     }
 
     .bg-light{
@@ -50,6 +64,10 @@
 
 /**Universal Layout**/
     .main-container{
+        width: 1400px;
+    }
+
+    .main-container-sm{
         width: 1000px;
     }
 
@@ -112,6 +130,16 @@
         flex: 1 1 0;
     }
 
+    .hero-left-col h1{
+        margin-bottom: 0;
+    }
+
+    .hero-left-col p{
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+
+
     .hero-right-col{
         flex: 1.5 1 0;
         padding-left: 2rem;
@@ -119,6 +147,8 @@
 
     .hero-image{
         width: 100%;
+        height: auto;
+        border-radius: 1rem;
     }
 
     .button-main{
@@ -127,9 +157,110 @@
         padding: .5rem 1.5rem;
         border-radius: .5rem;
         transition: 200ms;
+        font-size: 1.5rem;
     }
 
     .button-main:hover{
         color: #eaeaea;
         background-color: #000 !important;
     }
+
+/**Info Cards**/ 
+    .info-section{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 5rem 0;
+    }
+
+    .info-section h2{
+        margin-bottom: 2rem;
+    }
+
+    .cards-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .card{
+        min-width: 200px;
+        flex: 1;
+    }
+
+    .card-image-wrapper img{
+        width: 100%;
+        border-radius: .5rem;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+
+/**Quote Section**/ 
+    .quote-section{
+        display: flex;
+        justify-content: center;
+        padding: 5rem 0;
+    }
+
+    .quote-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quote-text{
+        font-size: 36px;
+        font-style: italic;
+        color: #1F2937;
+    }
+
+    .quote-person{
+        justify-self: flex-end;
+        text-align: end;
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+/**Sign Up**/ 
+    .sign-up-section{
+        display: flex;
+        justify-content: center;
+        padding: 5rem 0;
+    }
+
+    .sign-up-container{
+        background-color: #0fa1b4;
+        color: #fff;
+        border-radius: .5rem;
+        padding: 1.5rem 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .button-outline{
+        border: 2px solid #fff;
+        padding: .5rem 1rem;
+        color: #fff;
+        text-decoration: none;
+        border-radius: .5rem;
+        transition: 200ms;
+        font-size: 1.5rem;
+    }
+
+    .button-outline:hover{
+        background-color: #000;
+        border-color: #000;
+    }
+
+    .sign-up-section h3{
+        margin-bottom: 0;
+    }
+
+/**Footer**/
+    footer{
+        padding: 1.5rem;
+        color: #fff;
+        text-align: center;
+    }
+    
