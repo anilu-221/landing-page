@@ -1,0 +1,135 @@
+/***
+/*BASE ELEMENTS*/
+/**
+
+/**Fonts**/
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h1{
+        font-weight: 900;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        font-weight: 700;
+    }
+
+/**Colors*/
+    .text-primary{
+        color: #1f2937 !important;
+    }
+
+    .text-light{
+        color: #f9faf8 !important;
+    }
+
+    .text-light-link{
+        color: #e5e7eb;
+    }
+
+    .bg-primary{
+        background-color: #1f2937 !important;
+    }
+
+    .bg-secondary{
+        background-color: #3882f6 !important;
+    }
+
+    .bg-light{
+        background-color: #e5e7eb !important;
+    }
+
+/***
+/*Sections*/
+/**
+
+/**Universal Layout**/
+    .main-container{
+        width: 1000px;
+    }
+
+/**Header**/
+    .header-section{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-container{
+        display: flex;
+        padding: 1rem 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-logo{
+        font-weight: 900;
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    header ul{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li{
+        padding: 0;
+        margin: 0;
+    }
+
+    li a{
+        text-decoration: none;
+    }
+
+    li a:hover{
+        color: #8aa0ad;
+    }
+
+/**Hero**/ 
+    .hero-section{
+        display: flex;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    .hero-container{
+        display: flex;
+    }
+
+    .hero-left-col{
+        display: flex;
+        align-items: center;
+        flex: 1 1 0;
+    }
+
+    .hero-right-col{
+        flex: 1.5 1 0;
+        padding-left: 2rem;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    .button-main{
+        color: #fff;
+        text-decoration: none;
+        padding: .5rem 1.5rem;
+        border-radius: .5rem;
+        transition: 200ms;
+    }
+
+    .button-main:hover{
+        color: #eaeaea;
+        background-color: #000 !important;
+    }
